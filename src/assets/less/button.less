@@ -1,0 +1,36 @@
+/* BUTTON */
+
+.custom-btn {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: var(--border-radius-small);
+  padding: 14px 24px;
+  color: var(--white-color);
+  font-weight: var(--font-weight-normal);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+}
+
+.custom-btn.secondary {
+  color: white;
+  border: 1px solid white;
+}
+
+.custom-btn:focus {
+  box-shadow: none;
+}
+
+.custom-btn.bordered:hover,
+.custom-btn.bordered:focus,
+.custom-btn.bg-color:hover,
+.custom-btn.bg-color:focus {
+  background: var(--white-color);
+  color: var(--primary-color-d);
+}
+
+.btn-seeMore {
+  background-color: var(--secondary-color);
+  color: var(--white-color) !important;
+}
+

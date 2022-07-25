@@ -1,0 +1,31 @@
+.site-footer {
+  border-top: 1px solid #efebeb;
+  padding: 3rem 0;
+}
+
+.site-footer a {
+  color: var(--p-color);
+  font-weight: var(--font-weight-light);
+}
+
+.contact .fa,
+.site-footer .fa {
+  color: var(--primary-color);
+}
+
+.copyBtn {
+  position: relative;
+}
+
+.copyBtn:before {
+  content: "Copiado!";
+  position: absolute;
+  right: 110%;
+  opacity: 0;
+  transition: 0.4s;
+  color: green;
+}
+
+.copyBtn.in:before {
+  opacity: 1;
+}

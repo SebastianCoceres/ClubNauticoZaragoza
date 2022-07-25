@@ -1,0 +1,55 @@
+.google-map iframe {
+  width: 100%;
+  min-height: 15em;
+}
+
+.contact__list {
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+
+.contact__list a {
+  display: inline-block;
+}
+
+.contact__list a img,
+.contact__list div img {
+  --size: 2em;
+  width: var(--size);
+  height: var(--size);
+  margin-right: 1em;
+}
+
+.about-working-hours__container {
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.interaction-img {
+  position: absolute;
+  --size: 1.2em !important;
+  width: var(--size) !important;
+  height: var(--size) !important;
+  left: 40%;
+  top: 40%;
+  opacity: 0 !important;
+  transition: 0.4s !important;
+}
+
+.interaction-img.in {
+  transform: rotate(-45deg) !important;
+  opacity: 1 !important;
+}
+
+.interaction-img + img {
+  transition: 0.5s;
+  border-radius: 50%;
+}
+
+.interaction-img.in + img {
+  aspect-ratio: 1;
+  box-shadow: 0 0 5px var(--primary-color);
+  transition-delay: 0.6s;
+}
