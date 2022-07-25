@@ -1,25 +1,22 @@
+---
+import banderin from '/assets/images/Banderin.png'
+---
+
 <section class="schedule section full-height pt-5" id="schedule">
 
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 text-center">
                 <h2 class="text-white" data-aos="fade-up">
-                    <img src="/src/assets/images/Banderin.png" alt="" class="img-fluid banderin" />
+                    <img src={banderin} alt="" class="img-fluid banderin" />
                     <p>Nuestros horarios <span>2022</span></p>
                 </h2>
             </div>
-            <div class="py-4 col-12 col-xl-10 mx-auto">
-                <a href="/src/assets/images/Tablas/tabla-07-22.png" class="mobile-table-md">
-                    <img src="/src/assets/images/Tablas/tabla-07-22-md.png" alt="" />
-                </a>
-                <a href="/src/assets/images/Tablas/tabla-07-22.png" class="mobile-table-xs">
-                    <img src="/src/assets/images/Tablas/tabla-07-22-xs.png" alt="" />
-                </a>
-                <table class="table table-bordered table-responsive schedule-table" data-aos="fade-up"
-                    data-aos-delay="300">
+            <div class="table-responsive py-4 col-12 col-xl-10 mx-auto">
+                <table class="table schedule-table" data-aos="fade-up" data-aos-delay="300">
 
                     <thead class="thead-light">
-                        <th><i class="fa fa-calendar"></i></th>
+
                         <th>Lunes</th>
                         <th>Martes</th>
                         <th>Miercoles</th>
@@ -29,92 +26,133 @@
 
                     <tbody>
                         <tr>
-                            <th><small>10:00</small></th>
-                            <td><strong class="pilates">Pilates</strong></td>
-                            <td><strong class="ent-cnz">Entrenamiento CNZ</strong></td>
-                            <td><strong class="ent-cnz">Entrenamiento CNZ</strong></td>
-                            <td><strong class="funcional">Funcional</strong></td>
-                            <td><strong class="ent-cnz">Entrenamiento CNZ</strong></td>
+                            <td colspan="5"></td>
                         </tr>
                         <tr>
-                            <th><small>11:00</small></th>
-                            <td><strong class="ent-cnz">Entrenamiento CNZ</strong></td>
-                            <td><strong class="ent-cnz">Entrenamiento CNZ</strong></td>
-                            <td><strong class="funcional">Funcional</strong></td>
-                            <td><strong class="ent-cnz">Entrenamiento CNZ</strong></td>
-                            <td><strong class="ent-cnz">Entrenamiento CNZ</strong></td>
+                            <td>
+                                <div><strong class="pilates">Pilates</strong>10:00 - 11:00</div>
+                            </td>
+                            <td>
+                                <div><strong class="ent-cnz">Entrenamiento CNZ</strong>10:00 - 11:00</div>
+                            </td>
+                            <td>
+                                <div><strong class="ent-cnz">Entrenamiento CNZ</strong>10:00 - 11:00</div>
+                            </td>
+                            <td>
+                                <div><strong class="funcional">Funcional</strong>10:00 - 11:00</div>
+                            </td>
+                            <td>
+                                <div><strong class="ent-cnz">Entrenamiento CNZ</strong>10:00 - 11:00</div>
+                            </td>
                         </tr>
                         <tr>
-                            <th><small>12:00</small></th>
-                            <td><strong class="ent-cnz">Entrenamiento CNZ</strong></td>
-                            <td><strong class="funcional">Funcional</strong></td>
-                            <td><strong class="ent-cnz">Entrenamiento CNZ</strong></td>
-                            <td><strong class="ent-cnz">Entrenamiento CNZ</strong></td>
-                            <td><strong class="espalda">Espalda Sana</strong></td>
-                        </tr>
-                        <tr class="empty">
-                            <th><small>13:00</small></th>
-                            <td><strong>-</strong></td>
-                            <td><strong>-</strong></td>
-                            <td><strong>-</strong></td>
-                            <td><strong>-</strong></td>
-                            <td><strong>-</strong></td>
-                        </tr>
-                        <tr class="empty">
-                            <th><small>14:00</small></th>
-                            <td><strong>-</strong></td>
-                            <td><strong>-</strong></td>
-                            <td><strong>-</strong></td>
-                            <td><strong>-</strong></td>
-                            <td><strong>-</strong></td>
-                        </tr>
-                        <tr class="empty">
-                            <th><small>15:00</small></th>
-                            <td><strong>-</strong></td>
-                            <td><strong>-</strong></td>
-                            <td><strong>-</strong></td>
-                            <td><strong>-</strong></td>
-                            <td><strong>-</strong></td>
-                        </tr>
-                        <tr class="empty">
-                            <th><small>16:00</small></th>
-                            <td><strong>-</strong></td>
-                            <td><strong>-</strong></td>
-                            <td><strong>-</strong></td>
-                            <td><strong>-</strong></td>
-                            <td><strong>-</strong></td>
+
+                            <td>
+                                <div><strong class="ent-cnz">Entrenamiento CNZ</strong>11:00 - 12:00</div>
+                            </td>
+                            <td>
+                                <div><strong class="ent-cnz">Entrenamiento CNZ</strong>11:00 - 12:00</div>
+                            </td>
+                            <td>
+                                <div><strong class="funcional">Funcional</strong>11:00 - 12:00</div>
+                            </td>
+                            <td>
+                                <div><strong class="ent-cnz">Entrenamiento CNZ</strong>11:00 - 12:00</div>
+                            </td>
+                            <td>
+                                <div><strong class="ent-cnz">Entrenamiento CNZ</strong>11:00 - 12:00</div>
+                            </td>
                         </tr>
                         <tr>
-                            <th><small>17:00</small></th>
-                            <td><strong class="espalda">Espalda Sana</strong></td>
-                            <td><strong class="ent-cnz">Entrenamiento CNZ</strong></td>
-                            <td><strong class="ent-cnz">Entrenamiento CNZ</strong></td>
-                            <td><strong class="funcional">Funcional</strong></td>
-                            <td><strong class="ent-cnz">Entrenamiento CNZ</strong></td>
+
+                            <td>
+                                <div><strong class="ent-cnz">Entrenamiento CNZ</strong>12:00 - 13:00</div>
+                            </td>
+                            <td>
+                                <div><strong class="funcional">Funcional</strong>12:00 - 13:00</div>
+                            </td>
+                            <td>
+                                <div><strong class="ent-cnz">Entrenamiento CNZ</strong>12:00 - 13:00</div>
+                            </td>
+                            <td>
+                                <div><strong class="ent-cnz">Entrenamiento CNZ</strong>12:00 - 13:00</div>
+                            </td>
+                            <td>
+                                <div><strong class="espalda">Espalda Sana</strong>12:00 - 13:00</div>
+                            </td>
+                        </tr>
+
+                        <tr>
+
+                            <td>
+                                <div><strong class="espalda">Espalda Sana</strong>17:00 - 18:00</div>
+                            </td>
+                            <td>
+                                <div><strong class="ent-cnz">Entrenamiento CNZ</strong>17:00 - 18:00</div>
+                            </td>
+                            <td>
+                                <div><strong class="ent-cnz">Entrenamiento CNZ</strong>17:00 - 18:00</div>
+                            </td>
+                            <td>
+                                <div><strong class="funcional">Funcional</strong>17:00 - 18:00</div>
+                            </td>
+                            <td>
+                                <div><strong class="ent-cnz">Entrenamiento CNZ</strong>17:00 - 18:00</div>
+                            </td>
                         </tr>
                         <tr>
-                            <th><small>18:00</small></th>
-                            <td><strong class="ent-cnz">Entrenamiento CNZ</strong></td>
-                            <td><strong class="ent-cnz">Entrenamiento CNZ</strong></td>
-                            <td><strong class="funcional">Funcional</strong></td>
-                            <td><strong class="ent-cnz">Entrenamiento CNZ</strong></td>
-                            <td><strong class="ent-cnz">Entrenamiento CNZ</strong></td>
+
+                            <td>
+                                <div><strong class="ent-cnz">Entrenamiento CNZ</strong>18:00 - 19:00</div>
+                            </td>
+                            <td>
+                                <div><strong class="ent-cnz">Entrenamiento CNZ</strong>18:00 - 19:00</div>
+                            </td>
+                            <td>
+                                <div><strong class="funcional">Funcional</strong>18:00 - 19:00</div>
+                            </td>
+                            <td>
+                                <div><strong class="ent-cnz">Entrenamiento CNZ</strong>18:00 - 19:00</div>
+                            </td>
+                            <td>
+                                <div><strong class="ent-cnz">Entrenamiento CNZ</strong>18:00 - 19:00</div>
+                            </td>
                         </tr>
                         <tr>
-                            <th><small>19:00</small></th>
-                            <td><strong class="hit">CNZ HIT</strong></td>
-                            <td><strong class="pilates">Pilates</strong></td>
-                            <td><strong class="ent-cnz">Entrenamiento CNZ</strong></td>
-                            <td><strong class="pilates">Pilates</strong></td>
-                            <td><strong class="running">Running</strong></td>
+
+                            <td>
+                                <div><strong class="hit">CNZ HIT</strong>18:00 - 19:00</div>
+                            </td>
+                            <td>
+                                <div><strong class="pilates">Pilates</strong>18:00 - 19:00</div>
+                            </td>
+                            <td>
+                                <div><strong class="ent-cnz">Entrenamiento CNZ</strong>18:00 - 19:00</div>
+                            </td>
+                            <td>
+                                <div><strong class="pilates">Pilates</strong>18:00 - 19:00</div>
+                            </td>
+                            <td>
+                                <div><strong class="running">Running</strong>18:00 - 19:00</div>
+                            </td>
                         </tr>
                         <tr>
-                            <th><small>20:00</small></th>
-                            <td><strong class="ent-cnz">Entrenamiento CNZ</strong></td>
-                            <td><strong class="ent-cnz">Entrenamiento CNZ</strong></td>
-                            <td><strong class="running">Running</strong></td>
-                            <td><strong class="ent-cnz">Entrenamiento CNZ</strong></td>
-                            <td><strong class="yoga">Yoga</strong></td>
+
+                            <td>
+                                <div><strong class="ent-cnz">Entrenamiento CNZ</strong>19:00 - 20:00</div>
+                            </td>
+                            <td>
+                                <div><strong class="ent-cnz">Entrenamiento CNZ</strong>19:00 - 20:00</div>
+                            </td>
+                            <td>
+                                <div><strong class="running">Running</strong>19:00 - 20:00</div>
+                            </td>
+                            <td>
+                                <div><strong class="ent-cnz">Entrenamiento CNZ</strong>19:00 - 20:00</div>
+                            </td>
+                            <td>
+                                <div><strong class="yoga">Yoga</strong>19:00 - 20:00</div>
+                            </td>
                         </tr>
 
                     </tbody>

@@ -4,11 +4,6 @@ export interface Props {
 }
 
 const { title } = Astro.props as Props;
-
-
-import '/src/assets/css/bootstrap.min.css'
-import '/src/assets/css/aos.css'
-import '/src/assets/css/style.css'
 ---
 
 <!DOCTYPE html>
@@ -21,16 +16,18 @@ import '/src/assets/css/style.css'
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
 		integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
 		crossorigin="anonymous" rel="no-referrer nofollow" />
-
+	<link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="/assets/css/aos.css" />
+	<link rel="stylesheet" href="/assets/css/style.css" />
 	<title>{title}</title>
 </head>
 
 <body data-spy="scroll" data-target="#navbarNav" data-offset="50">
 	<slot />
-	<script is:inline src="/js/jquery.min.js"></script>
-	<script is:inline src="/js/bootstrap.min.js"></script>
-	<script is:inline src="/js/aos.js"></script>
-	<script is:inline src="/js/custom.js"></script>
+	<script is:inline src="/assets/js/jquery.min.js"></script>
+	<script is:inline src="/assets/js/bootstrap.min.js"></script>
+	<script is:inline src="/assets/js/aos.js"></script>
+	<script is:inline src="/assets/js/custom.js"></script>
 </body>
 
 </html>
