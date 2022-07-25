@@ -347,7 +347,7 @@ i {
   opacity: 0.85;
 }
 .hero {
-  background-image: url("/src/assets/images/fondo.jpg");
+  background-image: url("/assets/images/fondo.jpg");
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
